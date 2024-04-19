@@ -8,7 +8,5 @@ services:
     networks:
       - tunnel
     restart: unless-stopped
-    labels:
-      - "diun.enable=true"
 networks:
   tunnel:
